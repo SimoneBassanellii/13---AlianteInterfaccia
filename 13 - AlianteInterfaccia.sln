@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33717.318
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13 - AlianteInterfaccia", "13 - AlianteInterfaccia\13 - AlianteInterfaccia.csproj", "{EB0144EC-1F13-47F1-8ED5-D3ECD78102AA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EB0144EC-1F13-47F1-8ED5-D3ECD78102AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB0144EC-1F13-47F1-8ED5-D3ECD78102AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB0144EC-1F13-47F1-8ED5-D3ECD78102AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB0144EC-1F13-47F1-8ED5-D3ECD78102AA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4FD0C6F1-DFF0-4361-94C5-7E1B95B05B27}
+	EndGlobalSection
+EndGlobal
