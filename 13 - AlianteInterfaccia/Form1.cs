@@ -25,7 +25,7 @@ namespace _13___AlianteInterfaccia
         {
             if (FusoliaraRadio.Checked)
             {
-                values.Add($"La lunghezza è: " + textBox1.Text);
+                values.Add($"La lunghezza è: " + textBox1.Text); 
                 values.Add($"La larghezza è: " + textBox2.Text);
             }
             if (AlaRadio.Checked)
