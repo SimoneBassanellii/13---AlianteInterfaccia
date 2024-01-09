@@ -21,11 +21,17 @@ namespace _13___AlianteInterfaccia
             aliante = new Aliante();
         }
 
-        private void Aggiungibutton_Click(object sender, EventArgs e)
+
+        private void Prezzo_Click(object sender, EventArgs e)
+        {
+            //
+        }
+
+        private void Aggiungibutton_Click_1(object sender, EventArgs e)
         {
             if (FusoliaraRadio.Checked)
             {
-                values.Add($"La lunghezza è: " + textBox1.Text); 
+                values.Add($"La lunghezza è: " + textBox1.Text);
                 values.Add($"La larghezza è: " + textBox2.Text);
             }
             if (AlaRadio.Checked)
@@ -47,18 +53,12 @@ namespace _13___AlianteInterfaccia
             }
         }
 
-        private void Visualizzabutton_Click(object sender, EventArgs e)
+        private void Visualizzabutton_Click_1(object sender, EventArgs e)
         {
             foreach (string value in values)
             {
                 listView1.Items.Add(value);
             }
         }
-
-        private void Prezzo_Click(object sender, EventArgs e)
-        {
-            //
-        }
-
     }
 }

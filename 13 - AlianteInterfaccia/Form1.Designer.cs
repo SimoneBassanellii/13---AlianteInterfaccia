@@ -182,6 +182,7 @@
             this.Aggiungibutton.TabIndex = 14;
             this.Aggiungibutton.Text = "Aggiungi";
             this.Aggiungibutton.UseVisualStyleBackColor = true;
+            this.Aggiungibutton.Click += new System.EventHandler(this.Aggiungibutton_Click_1);
             // 
             // Visualizzabutton
             // 
@@ -191,6 +192,7 @@
             this.Visualizzabutton.TabIndex = 15;
             this.Visualizzabutton.Text = "Visualizza";
             this.Visualizzabutton.UseVisualStyleBackColor = true;
+            this.Visualizzabutton.Click += new System.EventHandler(this.Visualizzabutton_Click_1);
             // 
             // Prezzo
             // 
